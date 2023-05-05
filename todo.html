@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="to-do.css">
+    <script src="to-do.js"></script>
+    <title>to-do-app</title>
+</head>
+<body>
+    <div class="card">
+
+        <div class="todo-wrap">
+
+            <h1>To Do List</h1>
+        <div class="inputs-grid">
+            <div>
+                <input type="text"
+                class="todo"
+                placeholder="To do...">
+            </div>
+            
+            <div>
+                <input type="date"
+                class="duedate-input">
+            </div>
+                
+            <div>
+                <button onclick="
+                addToDo();
+                " 
+                class="btn-b"
+                >Add to-do</button>
+            </div>
+        </div>
+
+        <div class="display-todos"></div>
+
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
